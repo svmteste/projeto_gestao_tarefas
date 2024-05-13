@@ -1,3 +1,3 @@
 # projeto_gestao_tarefas
 
-Meu projeto tarefas
+Meu projeto tarefa
