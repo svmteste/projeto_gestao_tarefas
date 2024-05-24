@@ -31,15 +31,31 @@ class _AddScreenState extends State<AddScreen> {
             fillColor: Colors.white70,
             filled: true),
             ),
-
-            TextFormField(controller:imageController,
+            TextFormField(
+            onChanged: (text){
+              setState(() {});
+            },  
+            controller:imageController,
             decoration: 
             InputDecoration(border: OutlineInputBorder(),
             hintText: 'Url Imagem',
             fillColor: Colors.white70,
             filled: true),
             ),
-
+          Container(
+            height:100,
+            width:72,
+            decoration: BoxDecoration(
+              color:Colors.blue,
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(width:2, color:Colors.blue)
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child:Image.network(imageController.text,
+                fit:BoxFit.cover),
+              )
+          ),
          ElevatedButton(
             onPressed: (){
               print(nameController.text);
