@@ -1,3 +1,4 @@
 # projeto_gestao_tarefas
 
-Meu projeto tarefa
+![Texto Alternativo](img/etapa3_tarefas.png)
+
