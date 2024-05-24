@@ -1,4 +1,4 @@
 # projeto_gestao_tarefas
 
-![Texto Alternativo](img/etapa3_tarefas.png)
+![Texto Alternativo](img/tarefas.png)
 
