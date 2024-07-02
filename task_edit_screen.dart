@@ -14,7 +14,7 @@ class TaskEditScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Edit Task'),
+        title: Text('Editar Tarefa'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -22,11 +22,11 @@ class TaskEditScreen extends StatelessWidget {
           children: [
             TextField(
               controller: nameController,
-              decoration: InputDecoration(labelText: 'Name'),
+              decoration: InputDecoration(labelText: 'Tarefa'),
             ),
             TextField(
               controller: imageController,
-              decoration: InputDecoration(labelText: 'Image URL'),
+              decoration: InputDecoration(labelText: 'URL'),
             ),
             SizedBox(height: 20),
             ElevatedButton(
@@ -37,7 +37,7 @@ class TaskEditScreen extends StatelessWidget {
                 });
                 Navigator.pop(context);
               },
-              child: Text('Update Task'),
+              child: Text('Atualiza Tarefa'),
             ),
           ],
         ),
