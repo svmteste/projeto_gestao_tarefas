@@ -10,8 +10,10 @@ class TaskListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Task List'),
+        title: Text('Lista de Tarefas'),
       ),
+
+
       body: StreamBuilder(
         stream: tasks.snapshots(),
         builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -29,6 +31,7 @@ class TaskListScreen extends StatelessWidget {
                     tasks.doc(task.id).delete();
                   },
                 ),
+                
                 onTap: () {
                   Navigator.push(
                     context,
