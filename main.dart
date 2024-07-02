@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter CRUD Demo',
+      title: 'Flutter CRUD - Gestão Tarefas IFNMG',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
