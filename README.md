@@ -1,3 +1,3 @@
 # projeto_gestao_tarefas
 
-Meu projeto tarefa
+Usar o nanochat
