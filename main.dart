@@ -12,24 +12,16 @@ const messageLimit = 30;
 
 
 void main() async {
-  const FirebaseOptions(
-  apiKey: "AIzaSyBhycJZ7wHsFYGDcdoZRazutKVNfEKa2SQ",
-  authDomain: "ifnmg-esporte.firebaseapp.com",
-  projectId: "ifnmg-esporte",
-  storageBucket: "ifnmg-esporte.appspot.com",
-  messagingSenderId: "844194342463",
-  appId: "1:844194342463:web:67655c8443b7a3c7e23a8a",
-  measurementId: "G-CTVQNN48YC");
  WidgetsFlutterBinding.ensureInitialized();
  await Firebase.initializeApp(
       options: const FirebaseOptions(
-  apiKey: "AIzaSyBhycJZ7wHsFYGDcdoZRazutKVNfEKa2SQ",
-  authDomain: "ifnmg-esporte.firebaseapp.com",
-  projectId: "ifnmg-esporte",
-  storageBucket: "ifnmg-esporte.appspot.com",
-  messagingSenderId: "844194342463",
-  appId: "1:844194342463:web:67655c8443b7a3c7e23a8a",
-  measurementId: "G-CTVQNN48YC"));
+  apiKey: 
+  authDomain:
+  projectId: 
+  storageBucket: 
+  messagingSenderId: 
+  appId: 
+  measurementId: ));
  runApp(MyApp());
  FirebaseFirestore firestore = FirebaseFirestore.instance;
  firestore.collection('Teste').doc('Teste_aula_mobile').set({'nome': 'Suzana Zapp'});
